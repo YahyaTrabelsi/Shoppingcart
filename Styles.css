@@ -1,0 +1,53 @@
+body.img {
+    width: 30%;
+    height: 30%;
+
+}
+
+body {
+
+      text-align:  center ;
+      padding: 110px;
+      margin: auto;
+      box-sizing: border-box;
+      font-family: "Roboto", sans-serif;
+      width: 60%;
+      height: 10cm;
+  
+  }
+
+  .cart {
+    border: 6mm ridge rgba(14, 190, 23, 0.6);
+    width: 650px;
+    height: 315px;
+    margin: auto;
+   
+  }
+
+
+.item {
+ display: flex;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+ align-items:center;
+ width: 100%; 
+ 
+}
+  .fa-heart{
+      color: gray;
+  }
+
+  .shoesname {
+
+      line-height:20px;
+      height:40px;
+      overflow:hidden;
+      white-space: pre;
+      flex-wrap: wrap ;
+  }
+
+  h3 {
+    
+    color: peru;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+  }
